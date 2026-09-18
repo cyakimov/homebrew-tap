@@ -9,7 +9,6 @@ class Treepi < Formula
 
   def install
     system "go", "build", *std_go_args(ldflags: "-X main.version=#{version}"), "./cmd/treepi"
-    bin.install "treepi"
     bin.install_symlink "treepi" => "tp"
   end
 
