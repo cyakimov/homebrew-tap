@@ -5,6 +5,15 @@ class Treepi < Formula
   sha256 "271b1c75ae9eed85bc2a40b8a9898dd8576be1f6fe9fab4932f2c6882a01149b"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/cyakimov/homebrew-tap/releases/download/treepi-0.1.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "0b649707bf30c3dafcfce65f5ee8117ea99389eaed393deabe966e8b0cecb3a9"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ac727d68356d5e05739d6431558f8f28ab375d063d4ef3f7b091b2c2ecdaf0c2"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "f64ff9e453fbf725a27ca3065df7834ad2186acf39ed7ac84320d07fad55b741"
+    sha256 cellar: :any,                 x86_64_linux:  "84fda2062d275832d33dbf14848714687491e2260fe1f1a67e5dd318fb540662"
+  end
+
   depends_on "go" => :build
 
   def install
