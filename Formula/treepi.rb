@@ -6,12 +6,11 @@ class Treepi < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/cyakimov/homebrew-tap/releases/download/treepi-0.1.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "0b649707bf30c3dafcfce65f5ee8117ea99389eaed393deabe966e8b0cecb3a9"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ac727d68356d5e05739d6431558f8f28ab375d063d4ef3f7b091b2c2ecdaf0c2"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "f64ff9e453fbf725a27ca3065df7834ad2186acf39ed7ac84320d07fad55b741"
-    sha256 cellar: :any,                 x86_64_linux:  "84fda2062d275832d33dbf14848714687491e2260fe1f1a67e5dd318fb540662"
+    root_url "https://github.com/cyakimov/homebrew-tap/releases/download/treepi-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "b5c1cf2f4907aa88f042d47c7eb612549e51f9f08c35ca0cc2d8ead9a5c11658"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "3ebe03f4785dfdb1bd472086463be0b93c1e3b2a29ad9d9ae50ac18368d427da"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "9b3c3b2820673c2399fc29a254429fdb364a7e72d769a493309016f7b6d89176"
+    sha256 cellar: :any,                 x86_64_linux:  "47a969ec1f83548ab00f3b989fc9b14f3ecfc5926cb69955947b5f6a3635a719"
   end
 
   depends_on "go" => :build
