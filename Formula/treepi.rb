@@ -14,5 +14,6 @@ class Treepi < Formula
 
   test do
     assert_match "treepi version #{version}", shell_output("#{bin}/treepi --version")
+    assert_match "treepi version #{version}", shell_output("#{bin}/tp --version")
   end
 end
