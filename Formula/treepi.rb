@@ -1,8 +1,8 @@
 class Treepi < Formula
   desc "Git worktrees done right"
   homepage "https://github.com/cyakimov/treepi"
-  url "https://github.com/cyakimov/treepi/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "271b1c75ae9eed85bc2a40b8a9898dd8576be1f6fe9fab4932f2c6882a01149b"
+  url "https://github.com/cyakimov/treepi/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "84a4f32783758ca1533032c0046d63d927432d24c5893c9b8be701006bd592b8"
   license "Apache-2.0"
 
   bottle do
