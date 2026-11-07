@@ -1,6 +1,12 @@
 # homebrew-tap
 
 Homebrew tap for cyakimov tools.
+Current Homebrew requires explicit trust before loading code from third-party taps.
+
+```sh
+brew tap cyakimov/tap
+brew trust cyakimov/tap
+```
 
 | Tool | Install |
 | --- | --- |

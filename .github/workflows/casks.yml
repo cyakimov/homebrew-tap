@@ -27,5 +27,6 @@ jobs:
             echo "The first app release will add the Metron cask."
             exit 0
           fi
+          brew trust --cask cyakimov/tap/metron-app
           brew style "$TAP_PATH/Casks/metron-app.rb"
           brew audit --cask --strict --online cyakimov/tap/metron-app
