@@ -1,8 +1,8 @@
 class Metron < Formula
   desc "Live Claude and Codex account limits in your terminal"
   homepage "https://github.com/cyakimov/metron"
-  url "https://github.com/cyakimov/metron/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "a10d1a2b3a7e06942b300a110457f9b09d9d6fb34bfcabb02e790f8d6159b01f"
+  url "https://github.com/cyakimov/metron/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "b263b92627c152e1a05ff68cedfca3e26072a347fb81decb9c41132988cf3f5b"
   license "MIT"
 
   bottle do
