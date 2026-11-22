@@ -6,9 +6,9 @@ class Metron < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/cyakimov/homebrew-tap/releases/download/metron-0.1.5"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "964e9811fe0de221734acf583033c26a3f464abf6e0c507bf24fab1ef56e83f0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "dfa54bd54a9b2f4a095ede52d64a0f3f82427a5d4e407c4bcdef0d3639bcec1e"
+    root_url "https://github.com/cyakimov/homebrew-tap/releases/download/metron-0.1.6"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "1957911fb3208811248886e5bde4b7a6d63b16330ab4f9447d7d2e04c343fdb1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "3215a8e2cc29e687e1248fb4b71a32cf021be615a1650dade5d9d1881a1efeb5"
   end
 
   depends_on "go" => :build
