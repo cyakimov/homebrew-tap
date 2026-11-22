@@ -1,6 +1,6 @@
 cask "metron-app" do
-  version "0.1.5"
-  sha256 "7c997c629ffb9f590a977534ee933f417d355486dbfe8dddd4f94e76ca43e403"
+  version "0.1.6"
+  sha256 "429189b0de374f7cd1d8cacea502f87272b071598e4271fdb89ed80c0b8bcc37"
 
   url "https://github.com/cyakimov/metron/releases/download/v#{version}/Metron-#{version}-universal.dmg"
   name "Metron"
